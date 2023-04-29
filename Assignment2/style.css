@@ -1,0 +1,221 @@
+p {
+    font-family: Arial;
+
+}
+
+.name{
+    margin-left: 15px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.role{
+    margin-left: 15px;
+    margin-top: 4px;
+    font-size: 15px;
+    color: #3E3E59;
+}
+
+.desc{
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 4px;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+	background-color: #FFFFFF;
+    text-align: center;
+}
+
+.line1 {
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    /* identical to box height, or 162% */
+
+    text-align: center;
+
+    color: #282828;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.line2 {
+    font-weight: 600;
+    font-size: 54px;
+
+    /* identical to box height, or 115% */
+
+    text-align: center;
+    letter-spacing: -1px;
+
+    color: #282828;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.line3 {
+    font-weight: 400;
+    font-size: 20px;
+    width: 760;
+    /* or 175% */
+
+    text-align: center;
+
+    color: #5F6980;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.employee-cards {
+    margin-top: 48px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	width: 310px;
+    height: 430px;
+    margin: 16px;
+
+	background-color: #FFFFFF;
+	text-align: left;
+
+    padding: 0px, 0px, 16px, 0px;
+    box-shadow: #313131;
+
+    border: 2px solid #f2f2f2;
+
+}
+
+.card img {
+    width: 310px;
+    height: 230px;
+    margin-bottom: 8px;
+}
+
+.card h2 {
+	margin-top: 16px;
+}
+
+.card p {
+	margin-top: 4px;
+}
+
+.icon-box{
+    flex:5%;
+    display: flex;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    width: 36px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.icon-box.Facebook{
+    margin-left: 16px;
+}
+
+.footer {
+    display: flex;
+    background-color: #53535354;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 512px;
+    width: auto;
+    align-content: center;
+}
+
+.footer1 {
+    width: 200px;
+    margin: 50px;
+}
+
+.imageFooter {
+
+    width: 100px;
+    height: 64px;
+}
+
+.footerText {
+    line-height: 17px;
+    font-size: 10px;
+    padding: 50px 50px;
+    text-align: start;
+    color: #535353;
+}
+
+.footerP {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1E1E1E;
+    align-items: flex-start;
+}
+
+.footerIcons {
+    width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    line-height: 50px;
+    font-family: Arial;
+    font-size: 13px;
+    color: #535353;
+}
+
+ul {
+    padding: 20px;
+    margin-top: 50px;
+    list-style: none;
+}
+
+button {
+    width: 80px;
+    height: 45px;
+    background-color: #054A68;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin-top: 50px;
+    margin-left: 35px;
+    cursor: pointer;
+}
